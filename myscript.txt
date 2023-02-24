@@ -1,0 +1,10 @@
+option batch on
+option confirm off
+
+open sftp://root:PASSWORD@IP_SFTP_PAG/
+option transfer binary
+cd "/var/www/html/.Desarrollo/"
+put "C:\Users\smaestroni\Desktop\index.html"
+
+close
+exit
